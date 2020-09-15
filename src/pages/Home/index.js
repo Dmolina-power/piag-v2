@@ -1,9 +1,9 @@
 import React from "react";
 
-function Wheels() {
+function Home() {
   return <div>
       
   </div>;
 }
 
-export default Wheels;
+export default Home;

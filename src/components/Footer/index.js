@@ -1,12 +1,12 @@
 import React from 'react'
-import  Navbar from 'react-bootstrap/Navbar';
+import "./style.css";
 
 function footer() {
     return (
         <>
-          <Navbar bg="dark" fixed="bottom" variant="dark" >
-    <Navbar.Brand>PIAG MUSEUM copyright 2020</Navbar.Brand>
-  </Navbar>  
+          <footer className="footer fixed-bottom" >
+    <p className="center" >PIAG MUSEUM copyright 2020</p>
+  </footer>  
   </>
     )
 }
